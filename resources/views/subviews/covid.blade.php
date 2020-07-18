@@ -7,6 +7,6 @@
     <title>Covid Issues</title>
 </head>
 <body>
-    COVID impact on jobs
+    COVID {{ $var }} Issues on jobs
 </body>
 </html>

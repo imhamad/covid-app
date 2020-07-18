@@ -19,10 +19,4 @@ Route::get('/home', function () {
     return view('test');
 });
 
-Route::get('tailwind', function(){
-    return view('tailwind');
-});
-
-Route::get('covid',function(){
-return view('subviews.covid');
-});
+Route::get('covid', 'CovidController@covid');
